@@ -1,0 +1,34 @@
+h1{
+margin: auto;
+text-align: center;
+}
+
+table {
+color: black;
+background-color: white;
+max-width: 750px;
+margin: auto;
+text-align: center;
+}
+
+table,th,td{
+border: 2px solid #38A001;
+border-collapse: collapse;
+}
+
+tr:nth-child(even){
+font-weight: 400; 
+background-color: #B8FF92;
+}
+
+tr:nth-child(odd){
+font-weight: 300;
+}
+
+th{
+width: 200px;
+color: white;
+font-size: x-large;
+background-color: #38A001; /*#FF5333;   /*#FFD700*/
+font-family: 'Abel', sans-serif;
+}
